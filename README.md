@@ -1,6 +1,6 @@
 - 👋 Hi, I'm @IsmaelGamesYT0.
 - 👀 I'm interested in Game Development.
-- 🌱 I am currently learning (Python)
+- 🌱 I am currently learning (C#)
 - 💞️ I want to collaborate on Google.
 - 📫 How to contact me Ismael Games on Youtube.
 - 😄 Pronouns: Noobie Game Developer.
