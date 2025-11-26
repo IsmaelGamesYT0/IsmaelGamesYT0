@@ -1,7 +1,7 @@
 # 👋 What's up? I'm Ismael
 
-🔥 Roblox Scripter in progress  
-🧠 Learning **Luau/Lua**  
+🔥 Python Dev in progress  
+🧠 Learning **Python**  
 🎮 Working on game mechanics, abilities and systems  
 🚀 Next step: **C# + Unity (coming soon)**
 
