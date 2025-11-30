@@ -2,7 +2,7 @@
 
 🔥 Python Dev in progress  
 🧠 Learning **Python**  
-🎮 Working on game mechanics, abilities and systems  
+🎮 Working on small personal projects  
 🚀 Next step: **C# + Unity (coming soon)**
 
 ---
