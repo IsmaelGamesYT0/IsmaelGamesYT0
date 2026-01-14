@@ -1,8 +1,8 @@
 # 👋 What's up? I'm Ismael
 
-🔥 Python Dev in progress  
-🧠 Learning **Python**  
+🔥 Web Dev in progress  
+🧠 Learning **HTML/CSS**  
 🎮 Working on small personal projects  
-🚀 Next step: **C# + Unity (coming soon)**
+🚀 Next step: **JavaScript (coming soon)**
 
 ---
