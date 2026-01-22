@@ -15,7 +15,7 @@
 ---
 
 ### 🧠 Languages & Skills
-[![My Skills](https://skillicons.dev/icons?i=html,css,python,cs,cpp,lua)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,python,lua,cs,cpp)](https://skillicons.dev)
 
 ---
 
