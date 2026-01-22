@@ -9,7 +9,7 @@
   <img src="assets/icons/html.png" width="48"/>
   <img src="assets/icons/css.png" width="48"/>
   <img src="assets/icons/python.png" width="48"/>
-  <img src="assets/icons/csharp.png" width="48"/>
+  <img src="assets/icons/csharp.jpg" width="48"/>
   <img src="assets/icons/cpp.png" width="48"/>
 </p>
 
