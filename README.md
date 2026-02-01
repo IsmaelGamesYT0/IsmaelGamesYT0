@@ -8,8 +8,6 @@
   <img width="49%" height="190px" 
        src="https://github-readme-stats.vercel.app/api?username=IsmaelGamesYT0&show_icons=true&count_private=true&hide_border=true&title_color=9e9e9e&icon_color=9e9e9e&text_color=c9d1d9&bg_color=0d1117" /> 
        
-  <img width="41%" height="190px" 
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=IsmaelGamesYT0&layout=compact&hide_border=true&title_color=9e9e9e&text_color=c9d1d9&bg_color=0d1117"/>
 </div>
 
 ---
