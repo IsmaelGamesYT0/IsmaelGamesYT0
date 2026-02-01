@@ -15,12 +15,12 @@
 ---
 
 ### 🧠 Languages & Skills
-[![My Skills](https://skillicons.dev/icons?i=python,lua,c,cpp,cs)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,)](https://skillicons.dev)
 
 ---
 
 ### 🛠️ Tools & Environment
-[![My Skills](https://skillicons.dev/icons?i=git,github,linux,windows,vscode,visualstudio,eclipse)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=git,github,linux,windows,vscode,visualstudio)](https://skillicons.dev)
 
 ---
 
