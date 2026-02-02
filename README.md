@@ -5,7 +5,6 @@
 ---
 
 ### 🧠 Languages & Skills
-Future Dev Backend Java.
 
 [![My Skills](https://skillicons.dev/icons?i=c,java)](https://skillicons.dev)
 
