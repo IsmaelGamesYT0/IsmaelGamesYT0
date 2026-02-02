@@ -3,6 +3,13 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=006400&size=30&center=true&vCenter=true&width=1000&lines=HELLO,+my+name+is+Ismael;I'm+18+years+old;I'm+from+Brazil;Welcome+to+my+GitHub)](https://git.io/typing-svg)
 
 ---
+### 📊 Top Languages
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IsmaelGames&layout=compact&langs_count=8&theme=dark&hide_border=true" />
+</div>
+
+---
 
 ### 🧠 Languages & Skills
 
