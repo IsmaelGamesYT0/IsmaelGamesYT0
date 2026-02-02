@@ -16,7 +16,7 @@
 ---
 
 ### 🛠️ Tools & Environment
-[![My Tools](https://skillicons.dev/icons?i=git,github,linux,windows,vscode,visualstudio,idea)](https://skillicons.dev)
+[![My Tools](https://skillicons.dev/icons?i=git,github,vscode,visualstudio,idea)](https://skillicons.dev)
 
 ---
 
