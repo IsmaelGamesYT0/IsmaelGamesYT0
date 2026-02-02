@@ -7,12 +7,12 @@
 ### 🧠 Languages & Skills
 Currently focused on **C programming**, with emphasis on logic, fundamentals, and practical problem-solving.
 
-[![My Skills](https://skillicons.dev/icons?i=c)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,java)](https://skillicons.dev)
 
 ---
 
 ### 🛠️ Tools & Environment
-[![My Tools](https://skillicons.dev/icons?i=git,github,linux,windows,vscode,visualstudio)](https://skillicons.dev)
+[![My Tools](https://skillicons.dev/icons?i=git,github,linux,windows,vscode,visualstudio,intellij)](https://skillicons.dev)
 
 ---
 
