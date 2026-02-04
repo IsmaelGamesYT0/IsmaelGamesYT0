@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi 👋 I am Ismael!<br>Programmer in continuous learning. <br>Practical projects in: <br>- HTML / CSS / JS<br>- Java
+Hi 👋 I am Ismael!<br>Programmer in continuous learning.
 
 
 ## 🌐 Socials:
