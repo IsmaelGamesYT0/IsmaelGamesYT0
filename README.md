@@ -1,21 +1,18 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=006400&size=30&center=true&vCenter=true&width=1000&lines=HELLO,+my+name+is+Ismael;I'm+18+years+old;I'm+from+Brazil;Welcome+to+my+GitHub)](https://git.io/typing-svg)
+# 💫 About Me:
+Hi 👋 I am Ismael!<br>Programmer in continuous learning. <br>Practical projects in: <br>- HTML / CSS / JS<br>- Java
+
+
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/ismael-ribeiro-621965397/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ismaelribeiro164@gmail.com) 
+
+# 💻 Tech Stack:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=flat&logo=spring&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=IsmaelGamesYT0&theme=one_dark_pro&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=IsmaelGamesYT0&theme=one_dark_pro&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=IsmaelGamesYT0&theme=one_dark_pro&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
+[![](https://visitcount.itsvg.in/api?id=IsmaelGamesYT0&icon=0&color=0)](https://visitcount.itsvg.in)
 
-### 📊 Top Languages
-![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=IsmaelGamesYT0&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=00aa00&text_color=c9d1d9&icon_color=00aa00)
-
-
----
-
-### 🧠 Languages & Skills
-[![My Skills](https://skillicons.dev/icons?i=c,java)](https://skillicons.dev)
-
----
-
-### 🛠️ Tools & Environment
-[![My Tools](https://skillicons.dev/icons?i=git,github,vscode,visualstudio,idea)](https://skillicons.dev)
-
----
-
-### 🔗 Connect with me <div align="center"> <a href="https://www.linkedin.com/in/ismael-ribeiro-621965397/" target="_blank"> <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"> </a> </div>
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
