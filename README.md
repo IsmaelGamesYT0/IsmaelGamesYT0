@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0E75B6&height=170&section=header&text=Ismael%20Ribeiro&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=0E75B6&size=26&center=true&vCenter=true&width=900&lines=Java+Developer+in+Progress+%E2%98%95;Building+from+fundamentals+%7C+Real+practice;Learning+by+building%2C+breaking%2C+fixing"/>
+  <img src="https://readme-typing-svg.herokuapp.com/?color=0E75B6&size=26&center=true&vCenter=true&width=1100&lines=Java+Developer+in+Progress+%E2%98%95;Building+from+fundamentals+%7C+Real+practice;Learning+by+building%2C+breaking%2C+fixing"/>
 </p>
 
 <p align="center">
@@ -113,17 +113,12 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170em"
-       src="https://github-readme-stats.vercel.app/api?username=IsmaelGamesYT0&show_icons=true&theme=dark&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=IsmaelGamesYT0&show_icons=true&theme=dark&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IsmaelGamesYT0&layout=compact&theme=dark&hide_border=true"/>
 </p>
 
 <p align="center">
-  <img height="170em"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=IsmaelGamesYT0&layout=compact&theme=dark&hide_border=true"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=IsmaelGamesYT0&theme=dark&hide_border=true"/>
+  <img height="170" src="https://streak-stats.demolab.com?user=IsmaelGamesYT0&theme=dark&hide_border=true"/>
 </p>
 
 ---
