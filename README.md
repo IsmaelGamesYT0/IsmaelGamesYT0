@@ -88,7 +88,7 @@
         <img src="https://skillicons.dev/icons?i=css" height="45"/>
         <img src="https://skillicons.dev/icons?i=js" height="45"/>
       </p>
-      <sub>UI + structure + interactivity</sub>
+      <p><b>UI + structure + interactivity</b></p>
     </td>
     <td align="center" width="33%">
       <h3>🖥️ Backend</h3>
@@ -96,14 +96,14 @@
         <img src="https://skillicons.dev/icons?i=java" height="45"/>
         <img src="https://skillicons.dev/icons?i=spring" height="45"/>
       </p>
-      <sub>APIs, services, and business logic</sub>
+      <p><b>APIs, services, and business logic</b></p>
     </td>
     <td align="center" width="33%">
       <h3>🧠 Fundamentals</h3>
       <p>
         <img src="https://skillicons.dev/icons?i=c" height="45"/>
       </p>
-      <sub>Logic, memory mindset, problem solving</sub>
+       <p><b>Logic, memory mindset, problem solving</b></p>
     </td>
   </tr>
 </table>
