@@ -113,12 +113,17 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=IsmaelGamesYT0&show_icons=true&theme=dark&hide_border=true&rank_icon=github"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IsmaelGamesYT0&layout=compact&theme=dark&hide_border=true"/>
+  <img height="170em"
+       src="https://github-readme-stats.vercel.app/api?username=IsmaelGamesYT0&show_icons=true&theme=dark&hide_border=true"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=IsmaelGamesYT0&theme=dark&hide_border=true" height="170em"/>
+  <img height="170em"
+       src="https://github-readme-stats.vercel.app/api/top-langs/?username=IsmaelGamesYT0&layout=compact&theme=dark&hide_border=true"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=IsmaelGamesYT0&theme=dark&hide_border=true"/>
 </p>
 
 ---
