@@ -110,19 +110,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=IsmaelGamesYT0&show_icons=true&theme=dark&hide_border=true&cache_seconds=21600"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IsmaelGamesYT0&layout=compact&theme=dark&hide_border=true&cache_seconds=21600"/>
-</p>
-
-<p align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=IsmaelGamesYT0&theme=dark&hide_border=true"/>
-</p>
-
----
-
 ## 🤝 Contact
 
 <p align="center">
