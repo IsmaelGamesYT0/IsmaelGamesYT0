@@ -148,20 +148,6 @@
   </tr>
 </table>
 
-<hr>
-
-<div align="center">
-  <h2>📈 GitHub Stats</h2>
-  <p><i>Not the goal — just a dashboard.</i></p>
-</div>
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=IsmaelGamesYT0&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IsmaelGamesYT0&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<hr>
-
 <div align="center">
   <h2>🤝 Contact</h2>
   <p><i>If you want to talk projects, learning, or opportunities — I’m open.</i></p>
