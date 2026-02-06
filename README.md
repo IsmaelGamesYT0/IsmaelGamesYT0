@@ -101,7 +101,7 @@
     <td align="center" width="33%">
       <h3>🧠 Fundamentals</h3>
       <p>
-        <img src="https://skillicons.dev/icons?i=c" height="45"/>
+        <img src="https://skillicons.dev/icons?i=c,cpp" height="45"/>
       </p>
        <p><b>Logic, memory mindset, problem solving</b></p>
     </td>
