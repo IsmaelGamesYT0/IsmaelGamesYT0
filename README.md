@@ -41,10 +41,4 @@
 
 <hr>
 
-<p align="center">
-  <a href="https://linkedin.com/in/ismael-ribeiro-621965397">
-    <img src="https://img.shields.io/badge/Connect-LinkedIn-0E75B6?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-</p>
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0E75B6&height=100&section=footer"/>
