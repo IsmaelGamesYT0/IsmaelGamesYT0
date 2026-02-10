@@ -67,47 +67,6 @@
 <hr>
 
 <div align="center">
-  <h2>🚀 Featured Project</h2>
-  <p><i>A practical full-stack project to train real-world basics.</i></p>
-</div>
-
-<p align="center">
-  <a href="https://github.com/IsmaelGamesYT0/FormularioSimplesFullStack">
-    <img src="https://img.shields.io/badge/Project-FormularioSimplesFullStack-0E75B6?style=for-the-badge&logo=googleforms&logoColor=white"/>
-  </a>
-</p>
-
-<table align="center">
-  <tr>
-    <td valign="top" width="60%">
-      <h3>📌 FormularioSimplesFullStack</h3>
-      <p>
-        A simple full-stack form project built to practice end-to-end development:
-      </p>
-      <ul>
-        <li><b>Frontend</b>: form UI + client-side validation</li>
-        <li><b>Backend</b>: REST endpoints (Spring Boot)</li>
-        <li><b>Data</b>: request handling + clean structure</li>
-      </ul>
-      <p>
-        <a href="https://github.com/IsmaelGamesYT0/FormularioSimplesFullStack"><b>🔗 Open repository</b></a>
-      </p>
-    </td>
-    <td valign="top" width="40%">
-      <h3>✅ What this project proves</h3>
-      <ul>
-        <li>I can connect front ↔ back</li>
-        <li>I can structure code cleanly</li>
-        <li>I can ship working features</li>
-      </ul>
-      <p><i>Simple project, real learning.</i></p>
-    </td>
-  </tr>
-</table>
-
-<hr>
-
-<div align="center">
   <h2>🧰 Tech Stack (categorized)</h2>
   <p><i>Kept honest: what I actually use and practice.</i></p>
 </div>
