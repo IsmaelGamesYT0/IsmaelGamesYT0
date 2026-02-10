@@ -17,7 +17,6 @@
 <p align="center">
   <img src="https://img.shields.io/github/followers/IsmaelGamesYT0?style=for-the-badge&color=0E75B6&label=Followers&logo=github&logoColor=white" />
   <img src="https://img.shields.io/github/stars/IsmaelGamesYT0?style=for-the-badge&color=0E75B6&label=Stars&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/github/last-commit/IsmaelGamesYT0/FormularioSimplesFullStack?style=for-the-badge&color=0E75B6&label=Last%20commit&logo=git&logoColor=white" />
 </p>
 
 <hr>
