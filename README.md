@@ -33,6 +33,14 @@
 </table>
 
 <div align="center">
+  <h3>📘 Learning Repository</h3>
+  <p><i>Repository explicitly for study and learning purposes</i></p>
+  <a href="https://github.com/IsmaelGamesYT0/JavaLearn">
+    <b>🔗 Access JavaLearn Repository</b>
+  </a>
+</div>
+
+<div align="center">
   <h3>🛠️ Tech Stack</h3>
   <p>
     <img src="https://skillicons.dev/icons?i=java" height="70"/>
