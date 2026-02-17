@@ -39,9 +39,6 @@ Building consistency, mastering fundamentals, and evolving every single day.
   <a href="https://linkedin.com/in/ismael-ribeiro-621965397" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Ismael%20Ribeiro-0E75B6?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://github.com/IsmaelGamesYT0" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-IsmaelGamesYT0-111827?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
 </p>
 
 <hr>
