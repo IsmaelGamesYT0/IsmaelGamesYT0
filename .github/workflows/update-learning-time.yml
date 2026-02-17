@@ -2,7 +2,7 @@ name: Update learning time
 
 on:
   schedule:
-    - cron: "0 12 * * *" # todo dia às 12:00 UTC
+    - cron: "0 12 * * *" # runs daily at 12:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -17,7 +17,7 @@ jobs:
 
       - name: Update README learning time
         env:
-          START_DATE: "2026-01-21" # data real de início (AAAA-MM-DD)
+          START_DATE: "2026-01-21" # YYYY-MM-DD (your real start date)
           README_FILE: "README.md"
         run: |
           python - << 'PY'
@@ -29,15 +29,20 @@ jobs:
 
           start = datetime.strptime(start_date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
           now = datetime.now(timezone.utc)
+
           days = (now - start).days
           if days < 0:
             days = 0
 
+          # English output: "7 days" or "1 month (33 days)" / "2 months (61 days)"
           months = days // 30
           if months >= 1:
-            text = f"{months} mês{'es' if months > 1 else ''} ({days} dias)"
+            month_label = "month" if months == 1 else "months"
+            day_label = "day" if days == 1 else "days"
+            text = f"{months} {month_label} ({days} {day_label})"
           else:
-            text = f"{days} dias"
+            day_label = "day" if days == 1 else "days"
+            text = f"{days} {day_label}"
 
           with open(readme_file, "r", encoding="utf-8") as f:
             content = f.read()
