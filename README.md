@@ -16,7 +16,7 @@
 
 <h2>
 💻 Studying Programming for 
-<strong><!-- LEARNING_TIME -->1 month (32 days)<!-- /LEARNING_TIME --></strong>
+<strong><!-- LEARNING_TIME -->1 month (33 days)<!-- /LEARNING_TIME --></strong>
 </h2>
 
 <p>
