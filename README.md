@@ -83,7 +83,7 @@ Building consistency, mastering fundamentals, and evolving every single day.
 <div align="center">
   <h3>🛠️ Tech Stack</h3>
   <p>
-    <img src="https://skillicons.dev/icons?i=java,git,github" height="75"/>
+    <img src="https://skillicons.dev/icons?i=lua,java,git,github" height="75"/>
   </p>
 </div>
 
