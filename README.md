@@ -54,20 +54,19 @@ Building consistency, mastering fundamentals, and evolving every single day.
         <li><b>Background:</b> Touched Java, Python, C — none deeply</li>
         <li><b>Philosophy:</b> Finish something before starting something else</li>
       </ul>
-<td width="50%" valign="top">
+    </td>
+    <td width="50%" valign="top">
       <h3>🚀 Current Learning Path</h3>
       <ul>
         <li><b>Now:</b> variables, functions, control flow</li>
         <li><b>Next:</b> tables, OOP in Lua</li>
         <li><b>Goal:</b> Roblox Studio scripting by day 100</li>
       </ul>
-        <ul> 
-        <!-- LUA_DAY --><img src="https://img.shields.io/badge/100%20Days%20of%20Lua-Day%205%2F100-brightgreen?style=for-the-badge&logo=lua&logoColor=white"/><!-- /LUA_DAY -->
-        </ul>
+      <br>
+      <p align="center"><!-- LUA_DAY --><img src="https://img.shields.io/badge/100_Days_of_Lua-Day_5%2F100-brightgreen?style=for-the-badge" width="250"/><!-- /LUA_DAY --></p>
     </td>
   </tr>
 </table>
-
 <br>
 
 <div align="center">
