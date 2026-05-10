@@ -48,21 +48,22 @@ Building consistency, mastering fundamentals, and evolving every single day.
     <td width="50%" valign="top">
       <h3>👨‍💻 About Me</h3>
       <ul>
-        <li><b>Level:</b> Beginner Developer</li>
-        <li><b>Main Language:</b> Java ☕</li>
-        <li><b>Focus:</b> Logic & Problem Solving</li>
-        <li><b>Method:</b> Object-Oriented Programming (OOP)</li>
-        <li><b>Philosophy:</b> Small progress every day</li>
+        <li><b>Level:</b> Beginner — building consistency</li>
+        <li><b>Current Language:</b> Lua</li>
+        <li><b>Focus:</b> Logic & scripting fundamentals</li>
+        <li><b>Background:</b> Touched Java, Python, C — none deeply</li>
+        <li><b>Philosophy:</b> Finish something before starting something else</li>
       </ul>
-    </td>
-    <td width="50%" valign="top">
+<td width="50%" valign="top">
       <h3>🚀 Current Learning Path</h3>
       <ul>
-        <li><b>Java Core:</b> variables, loops, methods</li>
-        <li><b>OOP:</b> classes, encapsulation</li>
-        <li><b>Code Quality:</b> readability & structure</li>
-        <li><b>Next:</b> Data Structures</li>
+        <li><b>Now:</b> variables, functions, control flow</li>
+        <li><b>Next:</b> tables, OOP in Lua</li>
+        <li><b>Goal:</b> Roblox Studio scripting by day 100</li>
       </ul>
+        <ul> 
+        <!-- LUA_DAY --><img src="https://img.shields.io/badge/100%20Days%20of%20Lua-Day%205%2F100-brightgreen?style=for-the-badge&logo=lua&logoColor=white"/><!-- /LUA_DAY -->
+        </ul>
     </td>
   </tr>
 </table>
