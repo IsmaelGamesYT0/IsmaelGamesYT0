@@ -61,6 +61,49 @@ jobs:
           print("Updated to:", text)
           PY
 
+      - name: Update 100 Days of Lua badge
+        env:
+          LUA_START_DATE: "2026-05-06"
+          README_FILE: "README.md"
+        run: |
+          python - << 'PY'
+          from datetime import datetime, timezone
+          import os, re
+
+          start_date = os.environ["LUA_START_DATE"]
+          readme_file = os.environ["README_FILE"]
+
+          start = datetime.strptime(start_date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+          now = datetime.now(timezone.utc)
+          day = (now - start).days + 1
+
+          if day < 1:
+            day = 1
+          if day > 100:
+            day = 100
+
+          badge = (
+            f'<img src="https://img.shields.io/badge/100%20Days%20of%20Lua'
+            f'-Day%20{day}%2F100-brightgreen?style=for-the-badge&logo=lua&logoColor=white"/>'
+          )
+
+          with open(readme_file, "r", encoding="utf-8") as f:
+            content = f.read()
+
+          new_content = re.sub(
+            r"<!--\s*LUA_DAY\s*-->.*?<!--\s*/LUA_DAY\s*-->",
+            f"<!-- LUA_DAY -->{badge}<!-- /LUA_DAY -->",
+            content,
+            flags=re.DOTALL
+          )
+
+          if new_content != content:
+            with open(readme_file, "w", encoding="utf-8") as f:
+              f.write(new_content)
+
+          print(f"Updated to day {day}/100")
+          PY
+
       - name: Commit changes
         run: |
           if git diff --quiet; then
