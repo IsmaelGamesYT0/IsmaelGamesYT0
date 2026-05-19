@@ -16,7 +16,7 @@
 
 <h2>
 💻 Studying Programming for 
-<strong><!-- LEARNING_TIME -->3 months (117 days)<!-- /LEARNING_TIME --></strong>
+<strong><!-- LEARNING_TIME -->3 months (118 days)<!-- /LEARNING_TIME --></strong>
 </h2>
 
 <p>
@@ -63,7 +63,7 @@ Building consistency, mastering fundamentals, and evolving every single day.
         <li><b>Goal:</b> Finish a 3D game + be ready for junior roles or freelance</li>
       </ul>
       <br>
-      <p align="center"><!-- LUA_DAY --><img src="https://img.shields.io/badge/100%20Days%20of%20Lua-Day%2013%2F100-brightgreen?style=for-the-badge&logo=lua&logoColor=white"/><!-- /LUA_DAY --></p>
+      <p align="center"><!-- LUA_DAY --><img src="https://img.shields.io/badge/100%20Days%20of%20Lua-Day%2014%2F100-brightgreen?style=for-the-badge&logo=lua&logoColor=white"/><!-- /LUA_DAY --></p>
     </td>
   </tr>
 </table>
