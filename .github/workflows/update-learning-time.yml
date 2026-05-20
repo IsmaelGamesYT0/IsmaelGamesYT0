@@ -17,7 +17,7 @@ jobs:
 
       - name: Update README learning time
         env:
-          START_DATE: "2026-01-21" # YYYY-MM-DD (your real start date)
+          START_DATE: "2026-01-21"
           README_FILE: "README.md"
         run: |
           python - << 'PY'
@@ -34,7 +34,6 @@ jobs:
           if days < 0:
             days = 0
 
-          # English output: "7 days" or "1 month (33 days)" / "2 months (61 days)"
           months = days // 30
           if months >= 1:
             month_label = "month" if months == 1 else "months"
@@ -48,8 +47,8 @@ jobs:
             content = f.read()
 
           new_content = re.sub(
-            r"<!--\s*LEARNING_TIME\s*-->.*?<!--\s*/LEARNING_TIME\s*-->",
-            f"<!-- LEARNING_TIME -->{text}<!-- /LEARNING_TIME -->",
+            r".*?",
+            f"{text}",
             content,
             flags=re.DOTALL
           )
@@ -58,19 +57,19 @@ jobs:
             with open(readme_file, "w", encoding="utf-8") as f:
               f.write(new_content)
 
-          print("Updated to:", text)
+          print("Updated total learning time to:", text)
           PY
 
-      - name: Update 100 Days of Lua badge
+      - name: Update 100 Days of Code badge
         env:
-          LUA_START_DATE: "2026-05-06"
+          CHALLENGE_START_DATE: "2026-05-06"
           README_FILE: "README.md"
         run: |
           python - << 'PY'
           from datetime import datetime, timezone
           import os, re
 
-          start_date = os.environ["LUA_START_DATE"]
+          start_date = os.environ["CHALLENGE_START_DATE"]
           readme_file = os.environ["README_FILE"]
 
           start = datetime.strptime(start_date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
@@ -83,16 +82,16 @@ jobs:
             day = 100
 
           badge = (
-            f'<img src="https://img.shields.io/badge/100%20Days%20of%20Lua'
-            f'-Day%20{day}%2F100-brightgreen?style=for-the-badge&logo=lua&logoColor=white"/>'
+            f'<img src="https://img.shields.io/badge/100%20Days%20of%20Code'
+            f'-Day%20{day}%2F100-brightgreen?style=for-the-badge&logo=csharp&logoColor=white"/>'
           )
 
           with open(readme_file, "r", encoding="utf-8") as f:
             content = f.read()
 
           new_content = re.sub(
-            r"<!--\s*LUA_DAY\s*-->.*?<!--\s*/LUA_DAY\s*-->",
-            f"<!-- LUA_DAY -->{badge}<!-- /LUA_DAY -->",
+            r".*?",
+            f"{badge}",
             content,
             flags=re.DOTALL
           )
@@ -101,7 +100,7 @@ jobs:
             with open(readme_file, "w", encoding="utf-8") as f:
               f.write(new_content)
 
-          print(f"Updated to day {day}/100")
+          print(f"Updated 100 Days challenge to day {day}/100")
           PY
 
       - name: Commit changes
@@ -113,5 +112,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "chore: update learning time"
+          git commit -m "chore: update learning time and challenge day"
           git push
