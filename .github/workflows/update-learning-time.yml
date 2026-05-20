@@ -2,7 +2,7 @@ name: Update learning time
 
 on:
   schedule:
-    - cron: "0 12 * * *" # runs daily at 12:00 UTC
+    - cron: "0 12 * * *" # Executa diariamente às 12:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -12,10 +12,10 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Update README learning time
+      - name: Update Absolute Learning Time
         env:
           START_DATE: "2026-01-21"
           README_FILE: "README.md"
@@ -53,14 +53,13 @@ jobs:
             flags=re.DOTALL
           )
 
-          if new_content != content:
-            with open(readme_file, "w", encoding="utf-8") as f:
-              f.write(new_content)
+          with open(readme_file, "w", encoding="utf-8") as f:
+            f.write(new_content)
 
-          print("Updated total learning time to:", text)
+          print("Tempo absoluto atualizado para:", text)
           PY
 
-      - name: Update 100 Days of Code badge
+      - name: Update 100 Days Challenge Badge
         env:
           CHALLENGE_START_DATE: "2026-05-06"
           README_FILE: "README.md"
@@ -83,7 +82,7 @@ jobs:
 
           badge = (
             f'<img src="https://img.shields.io/badge/100%20Days%20of%20Code'
-            f'-Day%20{day}%2F100-brightgreen?style=for-the-badge&logo=csharp&logoColor=white"/>'
+            f'-Day%20{day}%2F100-475569?style=for-the-badge&logo=github&logoColor=white"/>'
           )
 
           with open(readme_file, "r", encoding="utf-8") as f:
@@ -91,26 +90,25 @@ jobs:
 
           new_content = re.sub(
             r".*?",
-            f"{badge}",
+            f"\n{badge}\n",
             content,
             flags=re.DOTALL
           )
 
-          if new_content != content:
-            with open(readme_file, "w", encoding="utf-8") as f:
-              f.write(new_content)
+          with open(readme_file, "w", encoding="utf-8") as f:
+            f.write(new_content)
 
-          print(f"Updated 100 Days challenge to day {day}/100")
+          print(f"Desafio atualizado para o dia: {day}/100")
           PY
 
-      - name: Commit changes
+      - name: Commit and Push Changes
         run: |
           if git diff --quiet; then
-            echo "No changes to commit."
+            echo "Nenhuma alteração detectada no README."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "chore: update learning time and challenge day"
+          git commit -m "chore: automated metrics synchronization"
           git push
