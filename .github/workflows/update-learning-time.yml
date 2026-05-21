@@ -46,20 +46,18 @@ jobs:
           with open(readme_file, "r", encoding="utf-8") as f:
             content = f.read()
 
-          # CORRIGIDO: Substitui apenas o texto entre as tags específicas
+          # CORRIGIDO: Padrão exato do seu README
           new_content = re.sub(
-            r'(<h2>\n⏱️ Active Time \| Tempo Ativo: \n<strong>).*?(</strong>\n</h2>)',
+            r'(⏱️ Active Time \| Tempo Ativo: \n<strong>).*?(</strong>)',
             rf'\1{text}\2',
             content,
             flags=re.DOTALL
           )
 
-          if new_content != content:
-            with open(readme_file, "w", encoding="utf-8") as f:
-              f.write(new_content)
-            print("Updated total learning time to:", text)
-          else:
-            print("Pattern not found, no changes made")
+          with open(readme_file, "w", encoding="utf-8") as f:
+            f.write(new_content)
+
+          print(f"✅ Updated learning time to: {text}")
           PY
 
       - name: Update 100 Days of Code badge
@@ -83,24 +81,20 @@ jobs:
           if day > 100:
             day = 100
 
-          badge = f'<img src="https://img.shields.io/badge/100%20Days%20of%20Code-Day%20{day}%2F100-brightgreen?style=for-the-badge&logo=csharp&logoColor=white"/>'
-
           with open(readme_file, "r", encoding="utf-8") as f:
             content = f.read()
 
-          # CORRIGIDO: Substitui APENAS a linha do badge
+          # CORRIGIDO: Substitui o número do dia onde quer que ele esteja
           new_content = re.sub(
-            r'<img src="https://img\.shields\.io/badge/100%20Days%20of%20Code-Day%20\d+%2F100[^"]*"[^>]*/>',
-            badge,
+            r'(Day )(\d{1,3})(/\d{1,3})',
+            rf'\g<1>{day}\g<3>',
             content
           )
 
-          if new_content != content:
-            with open(readme_file, "w", encoding="utf-8") as f:
-              f.write(new_content)
-            print(f"Updated 100 Days challenge to day {day}/100")
-          else:
-            print("Badge pattern not found, no changes made")
+          with open(readme_file, "w", encoding="utf-8") as f:
+            f.write(new_content)
+
+          print(f"✅ Updated 100 Days challenge to day {day}/100")
           PY
 
       - name: Commit changes
@@ -112,5 +106,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "chore: update learning time and challenge day"
+          git commit -m "chore: update learning time and challenge day [skip ci]"
           git push
