@@ -99,25 +99,25 @@ Objetivo: 100 dias consecutivos
     <td align="center" width="25%">
       <b>Principal agora</b><br>
       <img src="https://skillicons.dev/icons?i=cs" height="40"/>
-      <br><sub><b>Estudos_CSharp</b></sub>
+      <br><sub><b><a href="https://github.com/IsmaelGamesYT0/Estudos_CSharp">Estudos_CSharp</a></b></sub>
       <br><sub>C# · Curso Cod3r</sub>
      </td>
     <td align="center" width="25%">
       <b>Onde mais aprendi</b><br>
       <img src="https://skillicons.dev/icons?i=c" height="40"/>
-      <br><sub><b>C_Projects</b></sub>
+      <br><sub><b><a href="https://github.com/IsmaelGamesYT0/C_Projects">C_Projects</a></b></sub>
       <br><sub>Simuladores, loops</sub>
      </td>
     <td align="center" width="25%">
       <b>POO inicial</b><br>
       <img src="https://skillicons.dev/icons?i=java" height="40"/>
-      <br><sub><b>JavaLearn</b></sub>
+      <br><sub><b><a href="https://github.com/IsmaelGamesYT0/JavaLearn">JavaLearn</a></b></sub>
       <br><sub>Threads, POO</sub>
      </td>
     <td align="center" width="25%">
       <b>Scripts & automação</b><br>
       <img src="https://skillicons.dev/icons?i=lua,python" height="40"/>
-      <br><sub><b>Python/Lua</b></sub>
+      <br><sub><b><a href="https://github.com/IsmaelGamesYT0/Projetos-em-Python-e-Lua">Python/Lua</a></b></sub>
       <br><sub>Sleep() · Regex</sub>
      </td>
    </tr>
