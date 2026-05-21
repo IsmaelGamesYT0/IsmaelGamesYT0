@@ -12,7 +12,7 @@
 
 <h2>
 ⏱️ Active Time | Tempo Ativo: 
-<strong>3 months (118 days)</strong>
+<strong>4 months (120 days)</strong>
 </h2>
 
 <p>
