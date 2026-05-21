@@ -2,7 +2,7 @@ name: Update learning time
 
 on:
   schedule:
-    - cron: "0 12 * * *" # Executa diariamente às 12:00 UTC
+    - cron: "0 12 * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,10 +12,10 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Update Absolute Learning Time
+      - name: Update README learning time
         env:
           START_DATE: "2026-01-21"
           README_FILE: "README.md"
@@ -46,20 +46,23 @@ jobs:
           with open(readme_file, "r", encoding="utf-8") as f:
             content = f.read()
 
+          # CORRIGIDO: Substitui apenas o texto entre as tags específicas
           new_content = re.sub(
-            r".*?",
-            f"{text}",
+            r'(<h2>\n⏱️ Active Time \| Tempo Ativo: \n<strong>).*?(</strong>\n</h2>)',
+            rf'\1{text}\2',
             content,
             flags=re.DOTALL
           )
 
-          with open(readme_file, "w", encoding="utf-8") as f:
-            f.write(new_content)
-
-          print("Tempo absoluto atualizado para:", text)
+          if new_content != content:
+            with open(readme_file, "w", encoding="utf-8") as f:
+              f.write(new_content)
+            print("Updated total learning time to:", text)
+          else:
+            print("Pattern not found, no changes made")
           PY
 
-      - name: Update 100 Days Challenge Badge
+      - name: Update 100 Days of Code badge
         env:
           CHALLENGE_START_DATE: "2026-05-06"
           README_FILE: "README.md"
@@ -80,35 +83,34 @@ jobs:
           if day > 100:
             day = 100
 
-          badge = (
-            f'<img src="https://img.shields.io/badge/100%20Days%20of%20Code'
-            f'-Day%20{day}%2F100-475569?style=for-the-badge&logo=github&logoColor=white"/>'
-          )
+          badge = f'<img src="https://img.shields.io/badge/100%20Days%20of%20Code-Day%20{day}%2F100-brightgreen?style=for-the-badge&logo=csharp&logoColor=white"/>'
 
           with open(readme_file, "r", encoding="utf-8") as f:
             content = f.read()
 
+          # CORRIGIDO: Substitui APENAS a linha do badge
           new_content = re.sub(
-            r".*?",
-            f"\n{badge}\n",
-            content,
-            flags=re.DOTALL
+            r'<img src="https://img\.shields\.io/badge/100%20Days%20of%20Code-Day%20\d+%2F100[^"]*"[^>]*/>',
+            badge,
+            content
           )
 
-          with open(readme_file, "w", encoding="utf-8") as f:
-            f.write(new_content)
-
-          print(f"Desafio atualizado para o dia: {day}/100")
+          if new_content != content:
+            with open(readme_file, "w", encoding="utf-8") as f:
+              f.write(new_content)
+            print(f"Updated 100 Days challenge to day {day}/100")
+          else:
+            print("Badge pattern not found, no changes made")
           PY
 
-      - name: Commit and Push Changes
+      - name: Commit changes
         run: |
           if git diff --quiet; then
-            echo "Nenhuma alteração detectada no README."
+            echo "No changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "chore: automated metrics synchronization"
+          git commit -m "chore: update learning time and challenge day"
           git push
