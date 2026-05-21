@@ -12,7 +12,7 @@
 
 <h2>
 ⏱️ Foco atual: 
-<strong>C# · Dia 16 consecutivo</strong>
+<strong>C# · Dia 5 consecutivo</strong>
 </h2>
 
 <p>
@@ -42,13 +42,13 @@ Objetivo: 100 dias consecutivos
       <h3>🎯 Objetivos | Goals</h3>
       <ul>
         <li><b>2026-2028:</b> Dominar C#, .NET e Unity</li>
-        <li><b>Curto prazo:</b> Terminar o curso (C# Completo)</li>
+        <li><b>Curto prazo:</b> Terminar o curso Cod3r (C# Completo)</li>
         <li><b>Médio prazo:</b> Desenvolver um jogo 3D próprio na Unity</li>
         <li><b>Longo prazo:</b> Atuar como dev C# (backend ou gamedev)</li>
       </ul>
-    </td>
-  </tr>
-  <tr>
+     </td>
+   </tr>
+   <tr>
     <td colspan="2" valign="top">
       <h3>📜 Trajetória | Journey (2024-2026)</h3>
       <p>
@@ -94,12 +94,34 @@ Objetivo: 100 dias consecutivos
 
 ### 📂 Projetos | Repositories
 
-| Repositório | Linguagem | Descrição |
-|-------------|-----------|-----------|
-| **[Estudos_CSharp](https://github.com/IsmaelGamesYT0/Estudos_CSharp)** | C# | Curso · Em andamento |
-| **[C_Projects](https://github.com/IsmaelGamesYT0/C_Projects)** | C | Simuladores, loops, lógica bruta |
-| **[JavaLearn](https://github.com/IsmaelGamesYT0/JavaLearn)** | Java | POO inicial, threads |
-| **[Projetos-em-Python-e-Lua](https://github.com/IsmaelGamesYT0/Projetos-em-Python-e-Lua)** | Python/Lua | Scripts, automação |
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="25%">
+      <b>Principal agora</b><br>
+      <img src="https://skillicons.dev/icons?i=cs" height="40"/>
+      <br><sub><b>Estudos_CSharp</b></sub>
+      <br><sub>C# · Curso Cod3r</sub>
+     </td>
+    <td align="center" width="25%">
+      <b>Onde mais aprendi</b><br>
+      <img src="https://skillicons.dev/icons?i=c" height="40"/>
+      <br><sub><b>C_Projects</b></sub>
+      <br><sub>Simuladores, loops</sub>
+     </td>
+    <td align="center" width="25%">
+      <b>POO inicial</b><br>
+      <img src="https://skillicons.dev/icons?i=java" height="40"/>
+      <br><sub><b>JavaLearn</b></sub>
+      <br><sub>Threads, POO</sub>
+     </td>
+    <td align="center" width="25%">
+      <b>Scripts & automação</b><br>
+      <img src="https://skillicons.dev/icons?i=lua,python" height="40"/>
+      <br><sub><b>Python/Lua</b></sub>
+      <br><sub>Sleep() · Regex</sub>
+     </td>
+   </tr>
+</table>
 
 <br>
 
