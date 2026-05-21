@@ -22,7 +22,7 @@ jobs:
         run: |
           python - << 'PY'
           from datetime import datetime, timezone
-          import os, re
+          import os
 
           start_date = os.environ["START_DATE"]
           readme_file = os.environ["README_FILE"]
@@ -43,19 +43,21 @@ jobs:
             day_label = "day" if days == 1 else "days"
             text = f"{days} {day_label}"
 
+          # Ler o arquivo
           with open(readme_file, "r", encoding="utf-8") as f:
-            content = f.read()
+            lines = f.readlines()
 
-          # CORRIGIDO: Substitui o texto entre as tags
-          new_content = re.sub(
-            r'(<strong>).*?(</strong>)',
-            rf'\1{text}\2',
-            content,
-            flags=re.DOTALL
-          )
+          # Procurar e substituir a linha que contém o tempo
+          for i, line in enumerate(lines):
+            if "Active Time | Tempo Ativo:" in line:
+              # Pular a linha do título, ir para a próxima (que tem o <strong>)
+              if i+1 < len(lines) and "<strong>" in lines[i+1]:
+                lines[i+1] = f"<strong>{text}</strong>\n"
+                break
 
+          # Escrever de volta
           with open(readme_file, "w", encoding="utf-8") as f:
-            f.write(new_content)
+            f.writelines(lines)
 
           print(f"✅ Updated learning time to: {text}")
           PY
@@ -67,7 +69,7 @@ jobs:
         run: |
           python - << 'PY'
           from datetime import datetime, timezone
-          import os, re
+          import os
 
           start_date = os.environ["CHALLENGE_START_DATE"]
           readme_file = os.environ["README_FILE"]
@@ -81,19 +83,16 @@ jobs:
           if day > 100:
             day = 100
 
+          # Ler o arquivo
           with open(readme_file, "r", encoding="utf-8") as f:
             content = f.read()
 
-          # CORRIGIDO: Usa re.sub simples com função
-          def replace_day(match):
-            return f"Day {day}/100"
+          # Substituição simples sem regex complexo
+          # Procura padrão "Day XX/100" e substitui
+          import re
+          new_content = re.sub(r'Day \d+/\d+', f'Day {day}/100', content)
 
-          new_content = re.sub(
-            r'Day \d{1,3}/\d{1,3}',
-            replace_day,
-            content
-          )
-
+          # Escrever de volta
           with open(readme_file, "w", encoding="utf-8") as f:
             f.write(new_content)
 
