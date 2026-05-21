@@ -100,7 +100,7 @@ Objetivo: 100 dias consecutivos
       <b>Principal agora</b><br>
       <img src="https://skillicons.dev/icons?i=cs" height="40"/>
       <br><sub><b><a href="https://github.com/IsmaelGamesYT0/Estudos_CSharp">Estudos_CSharp</a></b></sub>
-      <br><sub>C# · Curso Cod3r</sub>
+      <br><sub>C# · Curso</sub>
      </td>
     <td align="center" width="25%">
       <b>Onde mais aprendi</b><br>
