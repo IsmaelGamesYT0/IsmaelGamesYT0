@@ -68,6 +68,8 @@ Objetivo: 100 dias consecutivos
 
 <br>
 
+---
+
 ### 🛠️ Tech Stack
 
 <table align="center" width="100%">
@@ -91,6 +93,8 @@ Objetivo: 100 dias consecutivos
 </table>
 
 <br>
+
+---
 
 ### 📂 Projetos | Repositories
 
