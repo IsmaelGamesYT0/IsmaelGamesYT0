@@ -1,4 +1,4 @@
-name: Update learning time
+name: Update 100 Days of Code
 
 on:
   schedule:
@@ -15,53 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Update README learning time
-        env:
-          START_DATE: "2026-01-21"
-          README_FILE: "README.md"
-        run: |
-          python - << 'PY'
-          from datetime import datetime, timezone
-          import os
-
-          start_date = os.environ["START_DATE"]
-          readme_file = os.environ["README_FILE"]
-
-          start = datetime.strptime(start_date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-          now = datetime.now(timezone.utc)
-
-          days = (now - start).days
-          if days < 0:
-            days = 0
-
-          months = days // 30
-          if months >= 1:
-            month_label = "month" if months == 1 else "months"
-            day_label = "day" if days == 1 else "days"
-            text = f"{months} {month_label} ({days} {day_label})"
-          else:
-            day_label = "day" if days == 1 else "days"
-            text = f"{days} {day_label}"
-
-          # Ler o arquivo
-          with open(readme_file, "r", encoding="utf-8") as f:
-            lines = f.readlines()
-
-          # Procurar e substituir a linha que contém o tempo
-          for i, line in enumerate(lines):
-            if "Active Time | Tempo Ativo:" in line:
-              # Pular a linha do título, ir para a próxima (que tem o <strong>)
-              if i+1 < len(lines) and "<strong>" in lines[i+1]:
-                lines[i+1] = f"<strong>{text}</strong>\n"
-                break
-
-          # Escrever de volta
-          with open(readme_file, "w", encoding="utf-8") as f:
-            f.writelines(lines)
-
-          print(f"✅ Updated learning time to: {text}")
-          PY
-
       - name: Update 100 Days of Code badge
         env:
           CHALLENGE_START_DATE: "2026-05-06"
@@ -69,7 +22,7 @@ jobs:
         run: |
           python - << 'PY'
           from datetime import datetime, timezone
-          import os
+          import os, re
 
           start_date = os.environ["CHALLENGE_START_DATE"]
           readme_file = os.environ["README_FILE"]
@@ -83,20 +36,27 @@ jobs:
           if day > 100:
             day = 100
 
-          # Ler o arquivo
           with open(readme_file, "r", encoding="utf-8") as f:
             content = f.read()
 
-          # Substituição simples sem regex complexo
-          # Procura padrão "Day XX/100" e substitui
-          import re
-          new_content = re.sub(r'Day \d+/\d+', f'Day {day}/100', content)
+          # Atualiza o badge
+          new_content = re.sub(
+            r'Day \d+/\d+',
+            f'Day {day}/100',
+            content
+          )
 
-          # Escrever de volta
+          # Atualiza também o texto "Dia X consecutivo"
+          new_content = re.sub(
+            r'C# · Dia \d+ consecutivo',
+            f'C# · Dia {day} consecutivo',
+            new_content
+          )
+
           with open(readme_file, "w", encoding="utf-8") as f:
             f.write(new_content)
 
-          print(f"✅ Updated 100 Days challenge to day {day}/100")
+          print(f"✅ Updated to Day {day}/100")
           PY
 
       - name: Commit changes
@@ -108,5 +68,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "chore: update learning time and challenge day [skip ci]"
+          git commit -m "chore: update 100 days badge [skip ci]"
           git push
