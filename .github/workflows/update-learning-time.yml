@@ -39,17 +39,17 @@ jobs:
           with open(readme_file, "r", encoding="utf-8") as f:
             content = f.read()
 
-          # Atualiza o badge
-          new_content = re.sub(
-            r'Day \d+/\d+',
-            f'Day {day}/100',
-            content
-          )
-
-          # Atualiza também o texto "Dia X consecutivo"
+          # Atualiza o texto "Dia X consecutivo"
           new_content = re.sub(
             r'C# · Dia \d+ consecutivo',
             f'C# · Dia {day} consecutivo',
+            content
+          )
+
+          # Atualiza QUALQUER badge de 100 days (funciona com github OU csharp)
+          new_content = re.sub(
+            r'100%20Days%20of%20Code-Day%\d+%2F100[^\s"]*',
+            f'100%20Days%20of%20Code-Day%20{day}%2F100-brightgreen?style=for-the-badge&logo=csharp&logoColor=white',
             new_content
           )
 
