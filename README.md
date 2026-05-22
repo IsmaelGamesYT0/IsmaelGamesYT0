@@ -20,7 +20,7 @@ Maior sequência: 11 dias (Lua, Maio/2026)<br>
 Objetivo: 100 dias consecutivos
 </p>
 
-<img src="https://img.shields.io/badge/100%20Days%20of%20Code-Day%2016%2F100-brightgreen?style=for-the-badge&logo=csharp&logoColor=white"/>
+<img src="https://img.shields.io/badge/100%20Days%20of%20Code-Day%2017%2F100-brightgreen?style=for-the-badge&logo=csharp&logoColor=white"/>
 </div>
 
 <br>
