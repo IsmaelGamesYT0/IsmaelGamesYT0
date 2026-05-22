@@ -12,7 +12,7 @@
 
 <h2>
 ⏱️ Foco atual: 
-<strong>C# · Dia 5 consecutivo</strong>
+<strong>C# · Dia 17 consecutivo</strong>
 </h2>
 
 <p>
