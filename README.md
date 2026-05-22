@@ -50,16 +50,23 @@ Objetivo: 100 dias consecutivos
    </tr>
    <tr>
     <td colspan="2" valign="top">
-      <h3>📜 Trajetória | Journey (2024-2026)</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Python-1%20mês-3776AB?style=flat&logo=python&logoColor=white"/> · 2024 — Primeiro contato sério com lógica.<br><br>
-        <img src="https://img.shields.io/badge/C-15%20dias-00599C?style=flat&logo=c&logoColor=white"/> · 21/01 a 04/02/2026 — Onde mais aprendi. Loops e sleep().<br><br>
-        <img src="https://img.shields.io/badge/Java-12%20dias-007396?style=flat&logo=java&logoColor=white"/> · 05/02 a 16/02/2026 — POO e threads.<br><br>
-        <img src="https://img.shields.io/badge/Pausa-79%20dias-gray?style=flat"/> · 17/02 a 05/05/2026<br><br>
-        <img src="https://img.shields.io/badge/Lua-11%20dias-2C2D72?style=flat&logo=lua&logoColor=white"/> · 06/05 a 16/05/2026 — Maior streak. Sleep() + regex.<br><br>
-        <img src="https://img.shields.io/badge/C%23-Atual-239120?style=flat&logo=csharp&logoColor=white"/> · 17/05/2026 até hoje — Decisão final. Unity + .NET.
-      </p>
-      <p><i>Nunca terminei um projeto grande. Esse é meu próximo marco.</i></p>
+<h3>📜 Trajetória | Journey (2024-2026)</h3>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python" height="20"/> <b>Python</b> · 1 mês (2024) — Primeiro contato sério com lógica.<br><br>
+  
+  <img src="https://skillicons.dev/icons?i=c" height="20"/> · 21/01 a 04/02/2026 (15 dias) — Onde mais aprendi. Loops e sleep().<br><br>
+  
+  <img src="https://skillicons.dev/icons?i=java" height="20"/> <b>Java</b> · 05/02 a 16/02/2026 (12 dias) — POO e threads.<br><br>
+  
+  ⏸️ <i>Pausa: 79 dias — 17/02 a 05/05/2026</i><br><br>
+  
+  <img src="https://skillicons.dev/icons?i=lua" height="20"/> <b>Lua</b> · 06/05 a 16/05/2026 (11 dias) — Maior streak. Sleep() + regex.<br><br>
+  
+  <img src="https://skillicons.dev/icons?i=cs" height="20"/> <b>C#</b> · 17/05/2026 até hoje — Decisão final. Unity + .NET.
+</p>
+
+<p><i>Nunca terminei um projeto grande. Esse é meu próximo marco.</i></p>
     </td>
    </tr>
 </table>
