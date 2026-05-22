@@ -52,23 +52,19 @@ Objetivo: 100 dias consecutivos
     <td colspan="2" valign="top">
       <h3>📜 Trajetória | Journey (2024-2026)</h3>
       <p>
-      <b>Python</b> · 1 mês (2024) — Primeiro contato sério com lógica.<br>
-      <b>C</b> · 21/01 a 04/02/2026 (15 dias) — Onde mais aprendi. Alta resistência, simulações com loops e sleep.<br>
-      <b>Java</b> · 05/02 a 16/02/2026 (12 dias) — Introdução a POO e threads.<br>
-      <i>[Pausa: 79 dias — 17/02 a 05/05/2026]</i><br>
-      <b>Lua</b> · 06/05 a 16/05/2026 (11 dias) — Maior streak até hoje. Scripts com sleep() multiplataforma e regex.<br>
-      <b>C#</b> · 17/05/2026 até hoje — Decisão final. O ecossistema que une Unity e .NET.
+        <img src="https://img.shields.io/badge/Python-1%20mês-3776AB?style=flat&logo=python&logoColor=white"/> · 2024 — Primeiro contato sério com lógica.<br><br>
+        <img src="https://img.shields.io/badge/C-15%20dias-00599C?style=flat&logo=c&logoColor=white"/> · 21/01 a 04/02/2026 — Onde mais aprendi. Loops e sleep().<br><br>
+        <img src="https://img.shields.io/badge/Java-12%20dias-007396?style=flat&logo=java&logoColor=white"/> · 05/02 a 16/02/2026 — POO e threads.<br><br>
+        <img src="https://img.shields.io/badge/Pausa-79%20dias-gray?style=flat"/> · 17/02 a 05/05/2026<br><br>
+        <img src="https://img.shields.io/badge/Lua-11%20dias-2C2D72?style=flat&logo=lua&logoColor=white"/> · 06/05 a 16/05/2026 — Maior streak. Sleep() + regex.<br><br>
+        <img src="https://img.shields.io/badge/C%23-Atual-239120?style=flat&logo=csharp&logoColor=white"/> · 17/05/2026 até hoje — Decisão final. Unity + .NET.
       </p>
-      <p>
-      <i>Nunca terminei um projeto grande. Esse é meu próximo marco.</i>
-      </p>
-     </td>
+      <p><i>Nunca terminei um projeto grande. Esse é meu próximo marco.</i></p>
+    </td>
    </tr>
 </table>
 
 <br>
-
----
 
 ### 🛠️ Tech Stack
 
@@ -78,23 +74,21 @@ Objetivo: 100 dias consecutivos
       <b>Principal</b><br>
       <img src="https://skillicons.dev/icons?i=cs" height="50"/>
       <br><sub>C# · .NET</sub>
-     </td>
+    </td>
     <td align="center" width="33%">
       <b>Game Dev</b><br>
       <img src="https://skillicons.dev/icons?i=unity" height="50"/>
       <br><sub>Unity 6</sub>
-     </td>
+    </td>
     <td align="center" width="33%">
       <b>Tools</b><br>
       <img src="https://skillicons.dev/icons?i=git,github,visualstudio" height="50"/>
       <br><sub>Git · VS 2026</sub>
-     </td>
+    </td>
    </tr>
 </table>
 
 <br>
-
----
 
 ### 📂 Projetos | Repositories
 
@@ -105,25 +99,25 @@ Objetivo: 100 dias consecutivos
       <img src="https://skillicons.dev/icons?i=cs" height="40"/>
       <br><sub><b><a href="https://github.com/IsmaelGamesYT0/Estudos_CSharp">Estudos_CSharp</a></b></sub>
       <br><sub>C# · Curso</sub>
-     </td>
+    </td>
     <td align="center" width="25%">
       <b>Onde mais aprendi</b><br>
       <img src="https://skillicons.dev/icons?i=c" height="40"/>
       <br><sub><b><a href="https://github.com/IsmaelGamesYT0/C_Projects">C_Projects</a></b></sub>
       <br><sub>Simuladores, loops</sub>
-     </td>
+    </td>
     <td align="center" width="25%">
       <b>POO inicial</b><br>
       <img src="https://skillicons.dev/icons?i=java" height="40"/>
       <br><sub><b><a href="https://github.com/IsmaelGamesYT0/JavaLearn">JavaLearn</a></b></sub>
       <br><sub>Threads, POO</sub>
-     </td>
+    </td>
     <td align="center" width="25%">
       <b>Scripts & automação</b><br>
       <img src="https://skillicons.dev/icons?i=lua,python" height="40"/>
       <br><sub><b><a href="https://github.com/IsmaelGamesYT0/Projetos-em-Python-e-Lua">Python/Lua</a></b></sub>
       <br><sub>Sleep() · Regex</sub>
-     </td>
+    </td>
    </tr>
 </table>
 
